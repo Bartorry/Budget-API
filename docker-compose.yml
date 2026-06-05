@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: budget
+      POSTGRES_USER: budget_user
+      POSTGRES_PASSWORD: budget_pass
+    ports:
+      - "5432:5432"
