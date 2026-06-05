@@ -6,6 +6,8 @@ REST API do zarządzania budżetem osobistym — śledzenie przychodów i wydatk
 
 - Java 21+
 - Docker Desktop
+- PostgreSQL (uruchamiany przez Docker)
+
 
 ## Uruchomienie
 
